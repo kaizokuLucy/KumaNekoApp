@@ -1,0 +1,33 @@
+.progress_bar {
+  height: 20px;
+  background-color: orange;
+  border-radius: 15px;
+  box-shadow: 0 4px 7px -5px #000 inset;
+}
+.progress_bar:first-child {
+  margin: 50px 0;
+}
+.progress_bar .pro-bar {
+  position: relative;
+  height: 100%;
+  box-shadow: 0 1px 11px -4px #fff inset;
+  border-radius: 15px;
+}
+
+/*<div className="container">
+<div className="row">
+  <div className="col-md-6">
+    <div className="progress_bar">
+      <div className="pro-bar" style={{ width: String(this.props.percentage) + '%', background: 'linear-gradient(to right,  #cf5d81 35%,#5c8ab7 68%)' }}>
+        {/* <span>{String(this.props.percentage) + '%'}</span>
+      </div>
+    </div>
+
+    <div className="progress_bar">
+      <div className="pro-bar" style={{ width: '47%', background: 'linear-gradient(to right,#d98164 35%,#a9b487 68%)' }}>
+        <span>47%</span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>*/

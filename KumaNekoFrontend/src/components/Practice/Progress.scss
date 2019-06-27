@@ -1,0 +1,40 @@
+.frame {
+  margin: 10px 50px;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  vertical-align: top;
+ // border: 1px solid black;
+  position: relative;
+}
+
+.progress-image {
+  //border: 5px solid purple !important;
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.circle {
+  // padding: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: "inline-block";
+  //backgroundColor: 'white',
+  //backgroundColor: color;
+  background-color: wheat;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}

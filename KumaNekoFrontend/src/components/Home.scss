@@ -1,0 +1,150 @@
+body {
+  background-image: url("../resources/logo/red_panda/bamboo/bamboo-sukoi.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #d1e294;
+}
+
+.h1 {
+  color: blueviolet;
+}
+
+.navbar {
+  /*background-color: #D1E294;*/
+  background: rgba(255, 255, 255, 0.6);
+  /*background-color: transparent;*/
+  //padding: 1% 0;
+  font-size: 1.2em;
+  //  border: none;
+  /*  border-color: #8FB340;*/
+}
+
+/** ovo je dio za logo **/
+.navbar-brand {
+  min-height: 100px;
+  //padding: 0 15px 5px;
+}
+
+.navbar-nav a {
+  color: #bc4e0f;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 70px 30px 0px 15px;
+}
+
+.navbar-nav a:hover {
+  color: #8fb340;
+  text-decoration: none;
+}
+
+/*  
+ .nav-item a hover {
+    color: #8FB340;
+  }
+a.nav-link:hover {
+    color: #8FB340;
+  }
+
+  .nav-link {
+    color: #BC4E0F;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 70px 30px 0px 15px;
+  }*/
+
+.navbar-brand img {
+  max-height: 115px;
+  padding: 0;
+}
+
+/*.nav {
+    padding: 0% 3%;
+  }
+*/
+.jumbotron {
+  background-color: transparent !important; // KANIJE ISTRAZITI KAKO BEZ OVOGA!!!!!!!!
+}
+.jumbotron img {
+  display: block;
+  margin-left: auto;
+  margin-right: 0px;    // slika da ode lijevo
+  margin-top: 200px;    // slika da se spusti dolje
+  width: 50%;
+  max-width: 400px;
+}
+
+
+#hello_text {
+  padding: 5% 5%;
+}
+
+#hello_text h1 {
+  color: #2e1d6b;
+  font-weight: bold;
+  animation-timing-function: ease-in;
+}
+
+.speech-bubble {
+  display: inline-block;
+  position: relative;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 0.4em;
+  //padding: 0% 10%;
+}
+
+.speech-bubble:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+ // width: 0;
+ // height: 0;
+  border: 100px solid transparent;
+  border-top-color: rgba(255, 255, 255, 0.6);
+  border-bottom: 0;
+  border-left: 0;
+  margin-left: -50px;
+  margin-bottom: -100px;
+}
+
+.navbar-fixed-bottom {
+  /*width: 100%;
+    padding: 5%;*/
+  background-color: rgba(155, 135, 215, 0.6);
+  color: #fff;
+}
+
+/*$background_color: #D1E294;
+body {
+    background-image: url("../resources/logo/red_panda/bamboo/bamboo-sukoi.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $background_color;
+}
+
+.navbar {
+    //background-color: #D1E294;
+    background: rgba(255,255,255,0.6);
+    //background-color: transparent;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: none;
+//  border-color: #8FB340;
+}
+
+// ovo je dio za logo 
+.navbar-brand {
+    float: left;
+    min-height: 100px;
+    padding: 0 15px 5px;
+}
+
+.konichiwa img {
+    padding: 40% 10%;
+    max-width: 400px;
+}*/
+
+// importanje bootstrapovog scss-a za bootstrap komponente
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";

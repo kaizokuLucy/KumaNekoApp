@@ -1,0 +1,1 @@
+var answerOptions = ["a", "e", "i", "o", "u"]
